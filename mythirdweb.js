@@ -45,24 +45,38 @@
 
 // };
 
-const counterLabel = document.getElementById("counterLabel")
-const decreaseButton = document.getElementById("decreaseButton");
-const resetButton = document.getElementById("resetButton");
-const increaseButton = document.getElementById("increaseButton");
-let count = 0;
+// COUNTER
+// const counterLabel = document.getElementById("counterLabel")
+// const decreaseButton = document.getElementById("decreaseButton");
+// const resetButton = document.getElementById("resetButton");
+// const increaseButton = document.getElementById("increaseButton");
+// let count = 0;
 
 
-increaseButton.onclick = function(){
-    count++
-    counterLabel.innerText = count;
-}
+// increaseButton.onclick = function(){
+//     count++
+//     counterLabel.innerText = count;
+// }
 
-decreaseButton.onclick = function(){
-    count--
-    counterLabel.innerText = count;
-}
+// decreaseButton.onclick = function(){
+//     count--
+//     counterLabel.innerText = count;
+// }
 
-resetButton.onclick = function(){
-    count = 0
-    counterLabel.innerText = count;
-}
+// resetButton.onclick = function(){
+//     count = 0
+//     counterLabel.innerText = count;
+// }
+// RANDOM NUMBER GENERATER
+// const myButton = document.getElementById("mybtn");
+// const myLabel = document.getElementById("myLabel");
+// const max = 6;
+// const min = 1;
+// let randomNumber;
+
+// myButton.onclick = function(){
+
+//     randomNumber = Math.floor(Math.random() *max) + min;
+
+//     myLabel.textContent = randomNumber;
+// }
