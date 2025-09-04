@@ -80,3 +80,27 @@
 
 //     myLabel.textContent = randomNumber;
 // }
+
+const myCheckBox = document.getElementById("myCheckBox");
+const VisaBtn = document.getElementById("VisaBtn");
+const masterCardBtn = document.getElementById("materCardBtn");
+const payPalBtn = document.getElementById("payPalBtn");
+const SubmitBtn = document.getElementById("submitBtn");
+const subcribeResult = document.getElementById("subcribeResult");
+const paymentResult = document.getElementById("paymentResult");
+
+
+SubmitBtn.onclick = function(){
+if(myCheckBox.checked){
+    subcribeResult.textContent = "You have subcribed";
+} else{
+    subcribeResult.textContent = "You have NOT subcribed";
+
+};
+if(VisaBtn.checked){    
+paymentResult.textContent = "You have selected Visa as your payment method";
+} else if(masterCardBtn.checked){
+    paymentResult.textContent = "You have selected MasterCard as your payment method";
+} else if(payPalBtn.checked){
+    paymentResult.textContent = "You have selected PayPal as your payment method";
+}}
